@@ -1,7 +1,7 @@
 
 // import UseState2 from "./Components/UseState2"
 
-import UseEffect1 from "./Components/UseEffect"
+import UseEffect1 from "./Components/UseEffect1"
 const App =()=>{
 return(
   <div>
