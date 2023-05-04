@@ -1,25 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// import UseState2 from "./Components/UseState2"
+
+import UseEffect1 from "./Components/UseEffect"
+const App =()=>{
+return(
+  <div>
+    <h1>Helloworld Hooks</h1>
+    {/* <UseState2/> */}
+    <UseEffect1 />
+  </div>
+)
 }
 
-export default App;
+export default App
